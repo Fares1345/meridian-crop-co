@@ -1,0 +1,9 @@
+{
+  "name": "meridian-crop-co",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Premium specialty green coffee sourcing company website",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

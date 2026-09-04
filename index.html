@@ -1,0 +1,415 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Meridian Crop Co. sources traceable specialty green coffee from exceptional producers around the world." />
+    <meta name="theme-color" content="#102c24" />
+    <title>Meridian Crop Co. — Coffee with coordinates.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="image" href="assets/meridian-hero.png" fetchpriority="high" />
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500&family=DM+Mono:wght@300;400;500&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+    <noscript><style>.field-film{height:100svh}.film-gate,.film-copy-secondary,.film-scroll,.film-motion{display:none}.film-copy-primary,.film-topline{opacity:1;transform:none}.reveal{opacity:1;transform:none}</style></noscript>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="page-noise" aria-hidden="true"></div>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="Meridian Crop Co. home">
+        <svg class="brand-mark" viewBox="0 0 38 38" aria-hidden="true">
+          <circle cx="19" cy="19" r="17.5" fill="none" stroke="currentColor" />
+          <path d="M9 26 19 7l10 19M13.5 25h11" fill="none" stroke="currentColor" stroke-width="1.5" />
+          <circle cx="19" cy="19" r="2.8" fill="currentColor" />
+        </svg>
+        <span>Meridian<br />Crop Co.</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Toggle menu</span>
+        <span></span><span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+        <a href="#lots">Current lots</a>
+        <a href="#origins">Origins</a>
+        <a href="#process">How we source</a>
+        <a href="#journal">Field notes</a>
+      </nav>
+
+      <button class="nav-cta" type="button" data-open-inquiry>
+        Request samples <span aria-hidden="true">↗</span>
+      </button>
+    </header>
+
+    <main id="main">
+      <section class="field-film" id="top" data-intro aria-label="A cinematic journey into coffee origin">
+        <div class="film-stage" data-intro-stage>
+          <div class="film-scene" aria-hidden="true">
+            <div class="film-layer film-layer-base"></div>
+            <div class="film-layer film-layer-distance"></div>
+            <div class="film-layer film-layer-field"></div>
+            <div class="film-layer film-layer-near"></div>
+            <canvas class="film-atmosphere" data-atmosphere></canvas>
+            <div class="film-mist"></div>
+            <div class="film-light"></div>
+            <div class="film-grade"></div>
+            <div class="film-reticle">
+              <i></i><i></i><i></i><i></i>
+            </div>
+          </div>
+
+          <div class="film-gate film-gate-left" aria-hidden="true"></div>
+          <div class="film-gate film-gate-right" aria-hidden="true"></div>
+
+          <div class="film-topline">
+            <span>Meridian field film / 01</span>
+            <span>Huila · Colombia</span>
+            <span>02°32′N / 75°31′W</span>
+          </div>
+
+          <div class="film-copy film-copy-primary" data-film-primary>
+            <span class="film-chapter">Origin precedes flavor</span>
+            <p>Before the cup<br />comes <em>place.</em></p>
+          </div>
+
+          <div class="film-copy film-copy-secondary" data-film-secondary aria-hidden="true">
+            <span class="film-chapter">Read the terrain</span>
+            <p><b>Altitude</b> shapes acidity.<br /><em>Hands</em> shape everything else.</p>
+          </div>
+
+          <div class="film-depth" aria-hidden="true">
+            <span>Canopy</span><i></i><span>1,880 masl</span>
+          </div>
+
+          <div class="film-controls"><button class="film-motion" type="button" aria-pressed="false" data-film-motion>Pause motion</button><a class="film-skip" href="#hero">Skip intro <span>↓</span></a></div>
+          <div class="film-scroll" aria-hidden="true">
+            <span>Scroll to descend</span>
+            <i><b></b></i>
+            <strong data-film-progress>00</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="hero" id="hero" aria-labelledby="hero-title">
+        <div class="hero-media" aria-hidden="true">
+          <img src="assets/meridian-hero.png" alt="" width="1536" height="1024" fetchpriority="high" />
+        </div>
+        <div class="hero-shade" aria-hidden="true"></div>
+        <div class="hero-coordinate" aria-hidden="true">
+          <span>02°32′N</span><i></i><span>75°31′W</span>
+        </div>
+        <div class="hero-content">
+          <p class="eyebrow hero-eyebrow"><span></span> 2026 / 27 crop catalogue</p>
+          <h1 id="hero-title"><span>Coffee with</span><em>coordinates.</em></h1>
+          <div class="hero-bottom">
+            <p>Exceptional green coffee, sourced with precision from people and places worth knowing.</p>
+            <a class="round-link" href="#lots" aria-label="Explore the current harvest">
+              <svg viewBox="0 0 100 100" aria-hidden="true">
+                <defs><path id="textcircle" d="M50,50 m-35,0 a35,35 0 1,1 70,0 a35,35 0 1,1 -70,0" /></defs>
+                <text><textPath href="#textcircle">EXPLORE THE HARVEST • EXPLORE THE HARVEST • </textPath></text>
+              </svg>
+              <span>↓</span>
+            </a>
+          </div>
+        </div>
+        <div class="hero-status">
+          <span><b></b> New arrivals</span>
+          <span>Huila / Colombia</span>
+          <span>Harvested Jun—Aug 2026</span>
+        </div>
+      </section>
+
+      <section class="manifesto section-shell reveal">
+        <p class="section-index">01 / The proposition</p>
+        <div class="manifesto-copy">
+          <p class="kicker">Not a commodity. A place, in full resolution.</p>
+          <h2>We buy coffee as a <em>relationship</em>—then preserve everything that made it remarkable.</h2>
+        </div>
+        <aside class="manifesto-aside">
+          <p>From first cherry to final container, our field team connects sensory quality with agronomy, processing, and transparent economics.</p>
+          <a class="text-link" href="#process">Our sourcing standard <span>↗</span></a>
+        </aside>
+      </section>
+
+      <section class="lots section-shell" id="lots" aria-labelledby="lots-title">
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-index">02 / Available now</p>
+            <h2 id="lots-title">The crop book</h2>
+          </div>
+          <p>Fresh arrivals, scored and held in climate-stable warehouses. Every lot is cupped at origin and on arrival.</p>
+        </div>
+
+        <div class="lot-toolbar reveal" role="group" aria-label="Filter coffee lots by process">
+          <div class="filter-list">
+            <button class="filter-btn active" data-filter="all" aria-pressed="true">All lots <sup>04</sup></button>
+            <button class="filter-btn" data-filter="washed" aria-pressed="false">Washed <sup>02</sup></button>
+            <button class="filter-btn" data-filter="natural" aria-pressed="false">Natural <sup>01</sup></button>
+            <button class="filter-btn" data-filter="experimental" aria-pressed="false">Experimental <sup>01</sup></button>
+          </div>
+          <span class="availability-key"><i></i> Ships within 5 days</span>
+        </div>
+
+        <div class="lot-grid">
+          <article class="lot-card lot-card-featured reveal" data-process="washed">
+            <div class="lot-visual">
+              <img src="assets/meridian-hero.png" alt="Coffee fields at Finca El Horizonte in Huila, Colombia" width="1536" height="1024" loading="lazy" />
+              <div class="lot-country">CO</div>
+              <span class="lot-badge">Just landed</span>
+              <button class="quick-sample" type="button" data-open-inquiry data-lot="El Horizonte Pink Bourbon">Add to sample box <span>+</span></button>
+            </div>
+            <div class="lot-info">
+              <div class="lot-title-line">
+                <div><p>Colombia · Huila</p><h3>El Horizonte</h3></div>
+                <strong>88.75</strong>
+              </div>
+              <div class="lot-specs">
+                <span><b>Variety</b> Pink Bourbon</span>
+                <span><b>Process</b> 36h washed</span>
+                <span><b>Altitude</b> 1,880 masl</span>
+                <span><b>Profile</b> Pink guava · oolong · cacao nib</span>
+              </div>
+              <div class="lot-meta"><span><i></i> 24 × 35kg available</span><span>EXW Oakland</span></div>
+            </div>
+          </article>
+
+          <article class="lot-card reveal" data-process="natural">
+            <div class="lot-visual graphic-visual ethiopia-visual">
+              <div class="topo-lines" aria-hidden="true"></div>
+              <div class="crop-stamp"><small>LOT</small><b>ET-26-041</b><span>5°58′N / 38°14′E</span></div>
+              <div class="lot-country">ET</div>
+              <button class="quick-sample" type="button" data-open-inquiry data-lot="Konga Halo Natural">Add to sample box <span>+</span></button>
+            </div>
+            <div class="lot-info">
+              <div class="lot-title-line">
+                <div><p>Ethiopia · Yirgacheffe</p><h3>Konga Halo</h3></div>
+                <strong>89.25</strong>
+              </div>
+              <div class="lot-specs compact">
+                <span><b>Variety</b> 74110 / 74112</span>
+                <span><b>Process</b> Slow natural</span>
+                <span><b>Altitude</b> 2,140 masl</span>
+                <span><b>Profile</b> Bergamot · blueberry · cacao</span>
+              </div>
+              <div class="lot-meta"><span><i></i> 14 × 30kg available</span><span>EXW Antwerp</span></div>
+            </div>
+          </article>
+
+          <article class="lot-card reveal" data-process="experimental">
+            <div class="lot-visual">
+              <img src="assets/drying-beds.png" alt="Coffee cherries and parchment drying on raised beds in Costa Rica" width="1536" height="1024" loading="lazy" />
+              <div class="lot-country">CR</div>
+              <span class="lot-badge citrus">Micro-lot</span>
+              <button class="quick-sample" type="button" data-open-inquiry data-lot="Las Lajas Black Honey">Add to sample box <span>+</span></button>
+            </div>
+            <div class="lot-info">
+              <div class="lot-title-line">
+                <div><p>Costa Rica · Sabanilla</p><h3>Las Lajas</h3></div>
+                <strong>87.75</strong>
+              </div>
+              <div class="lot-specs compact">
+                <span><b>Variety</b> Catuai</span>
+                <span><b>Process</b> Black honey</span>
+                <span><b>Altitude</b> 1,520 masl</span>
+                <span><b>Profile</b> Fig · tamarind · panela</span>
+              </div>
+              <div class="lot-meta"><span><i></i> 18 × 69kg available</span><span>FOB Caldera</span></div>
+            </div>
+          </article>
+
+          <article class="lot-card reveal" data-process="washed">
+            <div class="lot-visual graphic-visual kenya-visual">
+              <svg class="elevation" viewBox="0 0 500 360" aria-hidden="true"><path d="M-20 330C50 280 79 314 132 246s90 19 143-71 94 15 136-60 71-60 117-76v321H-20Z"/><path d="M-20 350c73-65 137-7 186-79s90 0 131-72 106-38 211-139"/><path d="M-20 310c81-54 118-8 164-64s86-2 126-65 122-80 238-93"/></svg>
+              <div class="crop-stamp"><small>LOT</small><b>KE-26-118</b><span>0°38′S / 37°04′E</span></div>
+              <div class="lot-country">KE</div>
+              <button class="quick-sample" type="button" data-open-inquiry data-lot="Kii AA Washed">Add to sample box <span>+</span></button>
+            </div>
+            <div class="lot-info">
+              <div class="lot-title-line">
+                <div><p>Kenya · Kirinyaga</p><h3>Kii AA</h3></div>
+                <strong>88.50</strong>
+              </div>
+              <div class="lot-specs compact">
+                <span><b>Variety</b> SL28 / SL34</span>
+                <span><b>Process</b> Double washed</span>
+                <span><b>Altitude</b> 1,780 masl</span>
+                <span><b>Profile</b> Blackcurrant · hibiscus · lime</span>
+              </div>
+              <div class="lot-meta"><span><i></i> 31 × 60kg available</span><span>EXW Hamburg</span></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="origin-section" id="origins" aria-labelledby="origins-title">
+        <div class="origin-copy section-shell reveal">
+          <p class="section-index light">03 / Origin atlas</p>
+          <h2 id="origins-title">Seven origins.<br /><em>One standard.</em></h2>
+          <p>We work where specificity thrives: distinct elevation, responsive producers, and a local team capable of staying close to every decision.</p>
+        </div>
+        <div class="atlas section-shell reveal">
+          <div class="map-wrap" aria-label="Interactive map of Meridian coffee origins">
+            <svg class="world-map" viewBox="0 0 1000 470" role="img" aria-label="Stylized world map showing coffee origins">
+              <g class="land" aria-hidden="true">
+                <path d="M84 100c58-64 131-74 191-42l53 20 49 67-38 29-49-13-22 30-47 20-26 59-49-6-9-51-55-24-21-42Z"/>
+                <path d="M286 271l48 30 22 69-34 86-37-34 5-61-30-49Z"/>
+                <path d="M476 104l70-43 101 19 48 55 62 7 72 63-41 44-90-3-41 37-20 87-50 57-39-49 19-90-57-48-55-25-15-75Z"/>
+                <path d="M792 343l72-12 69 49-27 50-80-2-41-42Z"/>
+              </g>
+              <g class="routes" aria-hidden="true"><path d="M272 245Q480 40 625 245"/><path d="M294 315Q460 205 603 263"/><path d="M603 263Q700 195 782 257"/></g>
+              <g class="markers">
+                <g class="map-marker active" data-origin="colombia" role="button" tabindex="0" aria-label="Show Colombia details"><circle cx="274" cy="247" r="18"/><circle cx="274" cy="247" r="4"/></g>
+                <g class="map-marker" data-origin="ethiopia" role="button" tabindex="0" aria-label="Show Ethiopia details"><circle cx="610" cy="261" r="18"/><circle cx="610" cy="261" r="4"/></g>
+                <g class="map-marker" data-origin="kenya" role="button" tabindex="0" aria-label="Show Kenya details"><circle cx="612" cy="296" r="18"/><circle cx="612" cy="296" r="4"/></g>
+                <g class="map-marker" data-origin="costarica" role="button" tabindex="0" aria-label="Show Costa Rica details"><circle cx="234" cy="235" r="18"/><circle cx="234" cy="235" r="4"/></g>
+                <g class="map-marker" data-origin="indonesia" role="button" tabindex="0" aria-label="Show Indonesia details"><circle cx="787" cy="291" r="18"/><circle cx="787" cy="291" r="4"/></g>
+              </g>
+              <g class="marker-labels" aria-hidden="true">
+                <g class="marker-annotation active" data-origin-label="colombia"><path class="marker-leader" d="M292 247h12"/><text class="marker-label" x="311" y="252">Colombia</text></g>
+                <g class="marker-annotation" data-origin-label="ethiopia"><path class="marker-leader" d="M628 261h12"/><text class="marker-label" x="647" y="266">Ethiopia</text></g>
+                <g class="marker-annotation" data-origin-label="kenya"><path class="marker-leader" d="M628 305l12 8"/><text class="marker-label" x="647" y="321">Kenya</text></g>
+                <g class="marker-annotation" data-origin-label="costarica"><path class="marker-leader" d="M219 225l-13-10"/><text class="marker-label marker-label-end" x="198" y="211">Costa Rica</text></g>
+                <g class="marker-annotation" data-origin-label="indonesia"><path class="marker-leader" d="M805 291h12"/><text class="marker-label" x="824" y="296">Indonesia</text></g>
+              </g>
+            </svg>
+          </div>
+          <div class="origin-panel" aria-live="polite">
+            <p class="origin-number" id="origin-number">01 / 05</p>
+            <div><span id="origin-country">Colombia</span><strong id="origin-region">Huila & Nariño</strong></div>
+            <dl>
+              <div><dt>Partner producers</dt><dd id="origin-producers">43</dd></div>
+              <div><dt>Altitude range</dt><dd id="origin-altitude">1,650—2,100m</dd></div>
+              <div><dt>Main crop</dt><dd id="origin-harvest">Apr—Aug</dd></div>
+            </dl>
+            <p id="origin-note">High-elevation pink bourbon, caturra and regional landraces from independent family farms.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="producer-story section-shell" aria-labelledby="producer-title">
+        <div class="producer-image reveal">
+          <img src="assets/producer-almaz.png" alt="Almaz Bekele, a coffee producer in Ethiopia's Gedeo highlands" width="1024" height="1536" loading="lazy" />
+          <span>Gedeo, Ethiopia<br />2,080 masl</span>
+        </div>
+        <div class="producer-copy reveal">
+          <p class="section-index">04 / People of the crop</p>
+          <p class="quote-mark">“</p>
+          <blockquote>Quality begins with what we decide <em>not</em> to rush.</blockquote>
+          <div class="producer-credit"><p><b>Almaz Bekele</b><br />Founder, Halo Beriti Washing Station</p><span>Partner since 2018</span></div>
+          <p class="story-body">Almaz coordinates cherry selection with 127 neighboring smallholders and pays a second quality premium after our arrival cupping. Her slow-drying protocol now serves as a benchmark across the district.</p>
+          <a class="text-link dark" href="#journal">Read Almaz’s field story <span>↗</span></a>
+        </div>
+      </section>
+
+      <section class="process-section section-shell" id="process" aria-labelledby="process-title">
+        <div class="process-intro reveal">
+          <p class="section-index">05 / The Meridian method</p>
+          <h2 id="process-title">Nothing important is invisible.</h2>
+          <p>Our sourcing standard follows each lot through four gates. Data supports the cup; it never replaces it.</p>
+        </div>
+        <div class="process-rail">
+          <article class="process-step reveal">
+            <span class="step-no">01</span><div class="step-line"><i></i></div>
+            <div><p class="step-label">At origin</p><h3>Field selection</h3><p>Agronomy, ripeness, separation, and producer economics are evaluated before a sample travels.</p></div>
+          </article>
+          <article class="process-step reveal">
+            <span class="step-no">02</span><div class="step-line"><i></i></div>
+            <div><p class="step-label">At the lab</p><h3>Blind calibration</h3><p>Three Q-graders cup every offer blind across two roast profiles, then reconcile sensory and physical data.</p></div>
+          </article>
+          <article class="process-step reveal">
+            <span class="step-no">03</span><div class="step-line"><i></i></div>
+            <div><p class="step-label">In transit</p><h3>Protected passage</h3><p>Moisture-stable liners, route monitoring, and staged arrival checks guard the coffee through export.</p></div>
+          </article>
+          <article class="process-step reveal">
+            <span class="step-no">04</span><div class="step-line"><i></i></div>
+            <div><p class="step-label">In your roastery</p><h3>Open continuity</h3><p>Responsive samples, roast context, and transparent replacement terms keep quality intact after delivery.</p></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="lab-section" aria-labelledby="lab-title">
+        <div class="lab-image"><img src="assets/green-coffee-lab.png" alt="Fresh green coffee beans on a dark quality-control table" width="1536" height="1024" loading="lazy" /></div>
+        <div class="lab-overlay"></div>
+        <div class="lab-content section-shell reveal">
+          <p class="section-index light">06 / Quality, measured</p>
+          <h2 id="lab-title">Every lot earns its place.</h2>
+          <div class="metrics">
+            <div><strong data-count="1864">0</strong><span>samples cupped<br />last crop year</span></div>
+            <div><strong data-count="8">0</strong><span>arrival checks<br />per shipment</span></div>
+            <div><strong data-count="2.4" data-decimals="1">0</strong><span>point average<br />selection uplift</span></div>
+            <div><strong data-count="87">0</strong><span>minimum score<br />for microlots</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="proof section-shell" aria-label="Client testimonial">
+        <div class="proof-side reveal"><p class="section-index">07 / From our partners</p><span>Roaster / Copenhagen</span></div>
+        <blockquote class="reveal">“Meridian gives us the rare combination: coffees with a clear point of view, and the operational discipline to deliver them exactly as promised.”</blockquote>
+        <div class="proof-signature reveal"><span>Northline Roasters</span><small>Wholesale partner since 2019</small></div>
+      </section>
+
+      <section class="journal section-shell" id="journal" aria-labelledby="journal-title">
+        <div class="section-heading reveal">
+          <div><p class="section-index">08 / Field notes</p><h2 id="journal-title">Read the terrain</h2></div>
+          <a class="text-link dark" href="#journal">View all notes <span>↗</span></a>
+        </div>
+        <div class="journal-grid">
+          <article class="journal-feature reveal">
+            <a href="#journal" aria-label="Read The long work of slow drying">
+              <div class="journal-image"><img src="assets/drying-beds.png" alt="Coffee drying on raised beds" width="1536" height="1024" loading="lazy" /></div>
+              <p>Processing / 8 min read</p><h3>The long work of slow drying</h3><span>What thirty extra hours can preserve in the cup. ↗</span>
+            </a>
+          </article>
+          <div class="journal-list reveal">
+            <article><a href="#journal"><span>Field report<br /><small>Huila, Colombia</small></span><h3>Pink Bourbon beyond the name</h3><b>↗</b></a></article>
+            <article><a href="#journal"><span>Market note<br /><small>Crop 2026/27</small></span><h3>Planning through price volatility</h3><b>↗</b></a></article>
+            <article><a href="#journal"><span>Producer story<br /><small>Gedeo, Ethiopia</small></span><h3>Almaz Bekele’s patient system</h3><b>↗</b></a></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="closing-cta" aria-labelledby="cta-title">
+        <div class="cta-topo" aria-hidden="true"></div>
+        <div class="section-shell reveal">
+          <p class="eyebrow"><span></span> Your next coffee starts here</p>
+          <h2 id="cta-title">Taste the <em>place.</em></h2>
+          <p>Tell us what you roast, how much you need, and where your palate is headed. We’ll curate a sample set within one business day.</p>
+          <button class="cta-button" type="button" data-open-inquiry><span>Build a sample box</span><b>↗</b></button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-main section-shell">
+        <div class="footer-brand"><a class="brand" href="#top"><svg class="brand-mark" viewBox="0 0 38 38" aria-hidden="true"><circle cx="19" cy="19" r="17.5" fill="none" stroke="currentColor"/><path d="M9 26 19 7l10 19M13.5 25h11" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="19" cy="19" r="2.8" fill="currentColor"/></svg><span>Meridian<br/>Crop Co.</span></a><p>Coffee with coordinates.</p></div>
+        <div class="footer-office"><p class="footer-label">Americas</p><p>Oakland, California<br />+1 510 555 0148</p><a href="mailto:trade@meridiancrop.co">trade@meridiancrop.co</a></div>
+        <div class="footer-office"><p class="footer-label">Europe</p><p>Antwerp, Belgium<br />+32 3 555 0192</p><a href="mailto:eu@meridiancrop.co">eu@meridiancrop.co</a></div>
+        <nav class="footer-links" aria-label="Footer navigation"><a href="#lots">Crop book</a><a href="#origins">Origins</a><a href="#process">Standards</a><a href="#journal">Field notes</a></nav>
+      </div>
+      <div class="footer-bottom section-shell"><span>© 2026 Meridian Crop Company</span><span>Organic certified · Rainforest Alliance partner · B Corp pending</span><span>Privacy / Terms</span></div>
+    </footer>
+
+    <dialog class="inquiry-dialog" id="inquiry-dialog" aria-labelledby="inquiry-title">
+      <button class="dialog-close" type="button" aria-label="Close inquiry form">×</button>
+      <div class="dialog-intro">
+        <p class="section-index">Sample desk / 24h response</p>
+        <h2 id="inquiry-title">Let’s find your next coffee.</h2>
+        <p>Share a little about your program. A dedicated trader will curate the best-fitting current lots.</p>
+      </div>
+      <form id="inquiry-form">
+        <label><span>Your name</span><input type="text" name="name" autocomplete="name" required placeholder="Full name" /></label>
+        <label><span>Work email</span><input type="email" name="email" autocomplete="email" required placeholder="you@roastery.com" /></label>
+        <label><span>Roastery / company</span><input type="text" name="company" autocomplete="organization" required placeholder="Company name" /></label>
+        <label><span>Coffee of interest</span><select name="lot" id="lot-select"><option value="Curator’s choice">Curator’s choice</option><option>El Horizonte Pink Bourbon</option><option>Konga Halo Natural</option><option>Las Lajas Black Honey</option><option>Kii AA Washed</option></select></label>
+        <label class="full"><span>What are you looking for?</span><textarea name="brief" rows="3" placeholder="Volume, profile, timing, or anything else that matters."></textarea></label>
+        <button class="form-submit" type="submit"><span>Send sample request</span><b>↗</b></button>
+        <p class="form-note">No obligation. Samples ship subject to availability.</p>
+      </form>
+      <div class="form-success" hidden><span>✓</span><h3>Request received.</h3><p>Our sample desk will be in touch within one business day.</p><button type="button" class="text-link dark dialog-done">Done</button></div>
+    </dialog>
+  </body>
+</html>
