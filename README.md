@@ -1,7 +1,6 @@
 # Meridian Crop Co.
 
-A responsive editorial website concept for a premium specialty green coffee sourcing company.
-
+A complete premium website for a coffee crop company, featuring coffee origins, available lots, processing methods, sourcing, farm stories, product details, transportation, and the full journey from farm to home.
 ## Run locally
 
 ```bash
